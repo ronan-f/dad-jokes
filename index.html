@@ -23,15 +23,22 @@
   <div id="container">
     <h1>Dad Jokes</h1>
     <p id="#dad-joke"></p>
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-       class="twitter-share-button"
-       data-size="large"
-       data-text="I just read an awesome dad joke"
-       data-url="https://father-jokes.netlify.app"
-       data-hashtags="dadjokes"
-       data-show-count="false">
-       Tweet
-    </a>
+    <div class="buttons-container">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+         class="twitter-share-button"
+         data-size="large"
+         data-text="I just read an awesome dad joke"
+         data-url="https://father-jokes.netlify.app"
+         data-hashtags="dadjokes"
+         data-show-count="false">
+         Tweet
+      </a>
+      <button
+        class="another-joke-btn"
+        onclick="appendDadJoke()">
+        I want another joke
+      </button>
+    </div>
   </div>
 </body>
 </html>
