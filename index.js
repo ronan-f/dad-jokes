@@ -9,7 +9,6 @@ async function getDadJoke() {
 
 async function appendDadJoke() {
   const joke = await getDadJoke();
-  console.log({ joke });
 
   const div = document.getElementById("#dad-joke");
   div.innerText = joke;
