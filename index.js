@@ -10,6 +10,6 @@ async function getDadJoke() {
 async function appendDadJoke() {
   const joke = await getDadJoke();
 
-  const div = document.getElementById("#dad-joke");
-  div.innerText = joke;
+  const jokeContainer = document.getElementById("#dad-joke");
+  jokeContainer.innerText = joke;
 }
